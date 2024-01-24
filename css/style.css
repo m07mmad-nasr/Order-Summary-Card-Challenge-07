@@ -24,16 +24,10 @@
 
 body {
   height: 100vh;
+  background-image: url(../images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
   background-color: var(--Pale-blue);
-}
-
-img[title="mobile_back_ground"] {
-  display: none;
-  width: 100%;
-}
-
-img[title="desktop_back_ground"] {
-  width: 100%;
 }
 
 main {
@@ -149,12 +143,8 @@ main > a:hover {
 /* mobile size */
 
 @media (max-width: 470px) {
-  img[title="desktop_back_ground"] {
-    display: none;
-  }
-
-  img[title="mobile_back_ground"] {
-    display: block;
+  body {
+    background-image: url(../images/pattern-background-mobile.svg);
   }
 
   main {
