@@ -23,18 +23,16 @@
 }
 
 body {
+  height: 100vh;
   background-color: var(--Pale-blue);
 }
 
-img.m_img {
-  display: none;
-}
-img.m_img {
+img[title="mobile_back_ground"] {
   display: none;
   width: 100%;
 }
 
-img.d_img {
+img[title="desktop_back_ground"] {
   width: 100%;
 }
 
@@ -151,11 +149,11 @@ main > a:hover {
 /* mobile size */
 
 @media (max-width: 470px) {
-  .d_img {
+  img[title="desktop_back_ground"] {
     display: none;
   }
 
-  .m_img {
+  img[title="mobile_back_ground"] {
     display: block;
   }
 
