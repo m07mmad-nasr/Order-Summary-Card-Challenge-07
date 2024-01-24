@@ -27,7 +27,7 @@ Thanks for checking out this front-end coding challenge.
 ### Links
 
 - Solution URL: [Solution](https://github.com/m07mmad-nasr/Order-Summary-Card-Challenge-07)
-- Live Site URL: [Live Site](https://Order-Summary-Card-Challenge-07.vercel.app/)
+- Live Site URL: [Live Site](https://order-summary-card-challenge-07-bxoo.vercel.app/)
 
 ### Built with
 
